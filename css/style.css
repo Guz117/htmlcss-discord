@@ -125,6 +125,10 @@ a.btn.dark:focus {
     color: #265ee8;
 }
 
+.grey {
+    background: #f6f6f6;
+}
+
 .main-description {
     width: 100%;
     height: 100vh;
@@ -145,10 +149,10 @@ a.btn.dark:focus {
 
 .img {
     width: 50%;
-   
+    
 }
 
-img {
+.img img {
     width: 100%;
 }
 
@@ -174,3 +178,59 @@ img {
     padding: 1em 5em 0em;
     width: 90%;
 }
+
+.technology {
+    width: 100%;
+    height: 110vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h2 {
+    line-height: 2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container h5 {
+    line-height: 1em;
+    font-size: 20px;
+} 
+
+.container h2, .container h5 {
+    width: 80%;
+    margin: 0 auto;
+} 
+
+
+.adventure {
+    font-size: 20px;
+}
+
+.stars {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.adventure {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#button{
+    background-color: #8ea1e1;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background: #23272a;
+}
+
+
+
