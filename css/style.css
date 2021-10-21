@@ -228,9 +228,116 @@ a.btn.dark:focus {
 
 footer {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     background: #23272a;
 }
+
+
+.total-footer {
+    width: 90%;
+    height: 430px;
+    margin: 0 auto;
+    
+    border-bottom: 3px solid #6e84d1;
+}
+
+.footer {
+    float: left;
+    width: calc(100% * 1 / 5 - 20px);
+    
+    margin-right: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    color: #6e84d1;
+}
+
+.speak {
+    font-size: 30px;
+}
+
+.norme {
+    margin-right: 0;
+}
+
+.italy {
+    margin-top: 20px;
+}
+
+
+.italy img{
+    width: 25px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.italy span {
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.icon li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.list {
+    
+    font-weight: normal;
+    color: white;
+    margin-top: 20px;
+}
+
+.list li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+li.twitter:hover {
+    color: lightskyblue;
+}
+
+li.instagram:hover {
+    color: #7a3cb2;
+}
+
+li.facebook:hover {
+    color: blue;
+}
+
+li.youtube:hover {
+    color: red;
+}
+
+.registration {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.registration img {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.registration a {
+    float: right;
+}
+
+#bottone {
+    background-color: #8ea1e1;
+}
+}
+
+
+
+
+
+
+
+
+
 
 
 
